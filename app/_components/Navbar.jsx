@@ -220,6 +220,7 @@ const Navbar = () => {
                         <Link href="/onboarding" className="mr-5">Trends</Link>
                         <Link href="/chatbot" className="mr-5">ChatBot</Link>
                         <Link href="/quiz" className="mr-5">Quiz</Link>
+                        <Link href="/career-platform" className="mr-5">Career Platform</Link>
                         {/* <ThemeToggle className="mr-5" /> */}
                         {!isHome && <ThemeToggle className="mr-5" />}
                         <UserButton afterSignOutUrl="/" />
@@ -254,6 +255,7 @@ const Navbar = () => {
                         <Link href="/idea" className="py-3 text-lg" onClick={toggleNavigation}>Ideas</Link>
                         <Link href="/onboarding" className="py-3 text-lg" onClick={toggleNavigation}>Trends</Link>
                         <Link href="/chatbot" className="py-3 text-lg" onClick={toggleNavigation}>ChatBot</Link>
+                        <Link href="/career-platform" className="py-3 text-lg" onClick={toggleNavigation}>Career Platform</Link>
                         {/* <ThemeToggle className="py-3" /> */}
                         {!isHome && <ThemeToggle className="py-3" />}
                         <UserButton afterSignOutUrl="/" />
